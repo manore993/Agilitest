@@ -1,0 +1,20 @@
+variables:
+  suites: suit2,suite
+  domain: com.functional
+  name: Convertor
+  description: |-
+    First you have to register your username.
+
+    You have to login to use the product.
+
+    Product: Enter a number and choose it' base. The number is converted to two other types of bases. The bases available: Decimal, Hexadecimal and binary.
+
+    All the conversions made under one username are saved in History tab.
+
+    You have to logout to close the product.
+  scriptPrefix: Tc
+  logsType: term
+  version: 0.0.1
+  useProjectDomain: 'false'
+  uuid: 41A16703-834B-CA41-746A-C0E63FD9A90C
+  useMaven: 'false'

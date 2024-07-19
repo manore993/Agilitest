@@ -1,0 +1,21 @@
+[ats-header]
+
+author -> AishwaryaMANORE
+created -> 2024-07-17 at 15:37:11
+
+[ats-variables]
+
+var -> name -> xoxo
+var -> email -> xoxo@gmail.com
+var -> Password -> xoxo56894926
+
+[ats-actions]
+
+channel-start -> new-channel -> $env(Browser1)
+goto-url -> https://convertor-number-types.fly.dev/login
+click -> A [href = /register, text = Register]
+keyboard -> xoxo -> INPUT [name = name, required = ]
+keyboard -> xoxo@gmail.com -> INPUT [name = email, required = , type = email]
+keyboard -> xoxo789456 -> INPUT [name = password, required = , type = password]
+click -> INPUT [type = submit]
+check-count -> 1 -> H3 [text = Conversion Page]

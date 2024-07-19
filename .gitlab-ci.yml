@@ -1,0 +1,12 @@
+stages:
+    - test
+lint-test-job:
+      stage: test
+      tags:
+          - ats
+      script:
+          - java AtsLauncher.java -ats-report=1 -suiteXmlFiles=suit2.xml
+      artifacts:
+            name: AtsSuitesExecution
+            paths:
+                - target/ats-output/

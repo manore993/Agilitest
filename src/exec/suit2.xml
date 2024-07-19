@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="suit2" verbose="0" id="AGT-DB4720A7-3770-3402-9D0D-C14379DE81F2" version="ats2">
+  <parameter name="ats.suite.date.order" value=""/>
+  <parameter name="ats.suite.description" value=""/>
+  <parameter name="ats.log.level" value="silent"/>
+  <test name="RegisterUser">
+    <classes>
+      <class name="RegisterUser"/>
+    </classes>
+  </test>
+</suite>
